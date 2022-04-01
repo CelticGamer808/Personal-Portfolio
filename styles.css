@@ -3,15 +3,13 @@
     right: 150px;
     z-index: 1;
     opacity: 85%;
-    color: rgb(173, 255, 47);
-    
+    color: lightgreen;
     }
-
     .navsec:hover {
-      color: rgb(132, 6, 6);
+      color: darkred;
     }
     .navsec {
-      color: rgb(173, 255, 47);
+      color: lightgreen;
     }
     header {
       background-image: url(https://scontent.fhnl3-2.fna.fbcdn.net/v/t1.18169-9/14632978_514763858720246_1972351838600844199_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=QbGSLwphbF0AX9Osxlc&_nc_ht=scontent.fhnl3-2.fna&oh=00_AT9rcvoOYqyHN4nrBSf0kQyjC7xXdcBZySMZsvwSWazMRg&oe=626C84E0);
