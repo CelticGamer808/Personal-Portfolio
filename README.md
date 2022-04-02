@@ -1,2 +1,2 @@
 # Personal-Portfolio
-My personal portfolio website
+Russell Dusz's Personal Portfolio Website
