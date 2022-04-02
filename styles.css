@@ -1,0 +1,78 @@
+.navbar {
+    position: fixed;
+    right: 150px;
+    z-index: 1;
+    opacity: 85%;
+    color: lightgreen;
+    }
+    .navsec:hover {
+      color: darkred;
+    }
+    .navsec {
+      color: lightgreen;
+    }
+    header {
+     background-image: url(https://scontent.fhnl3-2.fna.fbcdn.net/v/t1.18169-9/14632978_514763858720246_1972351838600844199_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=QbGSLwphbF0AX9Osxlc&_nc_ht=scontent.fhnl3-2.fna&oh=00_AT9rcvoOYqyHN4nrBSf0kQyjC7xXdcBZySMZsvwSWazMRg&oe=626C84E0);
+      text-align: center;
+      height: 100px;
+      font-size: 45px;
+      z-index: 1;
+    }
+
+    body {
+        font-family: sans-serif;
+          font-size: 18px;
+          font-weight: 100px;
+          background-color: black;
+          color: darkred;
+          text-align: justify;
+        }
+        #intro {
+          text-align: left;
+          font-size: 20px;
+        }
+        /*education start*/
+        .educ-loc {
+          font-weight: bold;
+          text-decoration: underline;
+        }
+        .training:hover {
+         color: chartreuse;
+        }
+        /*education end*/
+        .projects-section-header {
+          font-weight: bold;
+        }
+        .project-tile a{
+          font-size: 20px;
+        }
+        .project-project-tile {
+        font-size: 20px;
+        }
+
+        .project-project-tile:hover {
+         color: chartreuse;
+        }
+
+        .emaillogo {
+          width: 50px;
+          height: 50px;
+        }
+        #social {
+          text-align: left;
+        }
+        #contact {
+          font-weight: bolder;
+        }
+        .updated {
+          text-align: right;
+          margin: auto 0;
+          font-size: medium;
+        }
+        #profile-link {
+          display: inline-block;
+          font-size: 25px;
+        }
+        #profile-link:hover {
+          color: chartreuse;
+        }
