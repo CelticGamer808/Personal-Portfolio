@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1000px) {
+/*@media only screen and (max-width: 1000px) {
    * {
     font-size: 21px;
     text-align: left;
@@ -10,7 +10,7 @@
     font-size: 20px;
     text-align: left;
   }
-}
+}*/
 .navbar {
     position: fixed;
     right: 150px;
