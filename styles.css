@@ -11,25 +11,40 @@
     text-align: left;
   }
 }
+
 .navbar {
     position: fixed;
     right: 150px;
     z-index: 1;
-    opacity: 85%;
-    color: rgb(173, 255, 47);
+    color: rgb(3, 5, 0);
     }
 
     .navsec:hover {
-      color: rgb(132, 6, 6);
+      color: rgb(2, 15, 1);
     }
     .navsec {
-      color: rgb(173, 255, 47);
+      color: rgb(10, 43, 5);
+      font-weight: bolder;
+      font-size: 25px;
     }
+
     header {
-      background-image: url(https://scontent.fhnl3-2.fna.fbcdn.net/v/t1.18169-9/14632978_514763858720246_1972351838600844199_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=cdbe9c&_nc_ohc=QbGSLwphbF0AX9Osxlc&_nc_ht=scontent.fhnl3-2.fna&oh=00_AT9rcvoOYqyHN4nrBSf0kQyjC7xXdcBZySMZsvwSWazMRg&oe=626C84E0);
       text-align: center;
-      height: 100px;
+      height: 110px;
       font-size: 45px;
+      border-radius: 120px;
+    }
+    .back-image {
+      background-image:  url(https://scontent.fhnl3-1.fna.fbcdn.net/v/t31.18172-8/12719532_427217377474895_4696267740312713302_o.jpg?_nc_cat=101&ccb=1-5&_nc_sid=19026a&_nc_ohc=xCIiQFlk4bQAX9NsKQ_&tn=rLTSnVOVCNLk4ORQ&_nc_ht=scontent.fhnl3-1.fna&oh=00_AT9A7h2W2BRNCQvFVrdt2jRsNvEUqcOcvWEMAapct-OMpw&oe=6273DECE);
+      }
+
+    .welcome-img {
+      border: groove 3px red;
+      border-radius: 100px;
+    }
+    .welcome-header {
+    font-size: 200%;
+    color:black
     }
 
     body {
@@ -37,12 +52,13 @@
           font-size: 18px;
           font-weight: 100px;
           background-color: black;
-          color: darkred;
+          color: rgb(167, 16, 16);
           text-align: justify;
         }
         #intro {
-          text-align: left;
+          text-align: justify;
           font-size: 20px;
+          color: rgb(77, 8, 104);
         }
         /*education start*/
         .educ-loc {
@@ -51,12 +67,13 @@
         }
         .training:hover {
          color: chartreuse;
+         
         }
         /*education end*/
         .projects-section-header {
           font-weight: bold;
         }
-        .project-tile a{
+        .project-tile a {
           font-size: 20px;
         }
         .project-project-tile {
@@ -74,12 +91,22 @@
           width: 50px;
           height: 50px;
         }
+        #hobbies {
+          color: darkviolet;
+          font-size: 20px;
+        }
         #social {
           text-align: left;
           color: turquoise;
         }
         #contact {
           font-weight: bolder;
+          width: fit-content;
+          border: 4px solid turquoise;
+          padding: 10px;
+        }
+        .cert:hover a {
+          color: chartreuse;
         }
         .updated {
           text-align: right;
